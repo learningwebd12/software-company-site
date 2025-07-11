@@ -138,8 +138,13 @@ align-items: center;
 
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   text-align: center;
+  padding: 3vw 0;
+  svg{
+    margin: 0 0 4vw 0;
+  }
   p{
   
     font-size: 1vw;
@@ -179,4 +184,139 @@ align-items: center;
     font-size: 1vw;
   }
 }
+}
+
+// about section css start here
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+  padding: 1.2vw 3vw;
+
+  .about-images {
+   
+    width: 40vw;
+    max-width: 500px;
+    position: relative;
+
+    .rotate-images {
+  position: absolute;
+  top: 0vw;
+  right: 0;
+  width: 9vw;
+  height: 9vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .green-images {
+    position: absolute;
+    width: 100%;
+    height: auto;
+  }
+
+  .rotate-text {
+    width: 90%;
+    height: 100%;
+    animation: spin 10s linear infinite;
+    transform-origin: center center;
+
+    text {
+      font-family: sans-serif;
+      letter-spacing: 2px;
+    }
+  }
+}
+textPath{
+  color: #000000;
+  font-weight: 700;
+  font-size: 1.2vw;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+    .about-first-img {
+      border-radius: 2vw;
+      width: 100%;
+      height: auto;
+
+      mask-image: url('../images/about-us-image-mask.svg');
+      mask-size: cover;
+      mask-repeat: no-repeat;
+      mask-position: center;
+
+      -webkit-mask-image: url('../images/about-us-image-mask.svg');
+      -webkit-mask-size: cover;
+      -webkit-mask-repeat: no-repeat;
+      -webkit-mask-position: center;
+    }
+  }
+}
+
+.about-text{
+
+  width: 50%;
+
+  .about-h2-text{
+    font-size: 2.8vw;
+    width: 90%;
+    
+  }
+    .about-desc{
+      font-family: poppins;
+      font-family: 1vw;
+      
+    }
+    ul{
+      padding: 1vw 0;
+      position: relative;
+    }
+  li{
+    list-style-type:none;
+    position: relative;
+    margin: 1vw 0 0 2vw;
+    
+    }
+    li::after{
+      position: absolute;
+      content: "";
+      height: 1vw;
+      width: 1vw;
+      background-color: #4c00ff;
+      top: 0.4vw;
+      left: -2vw;
+      border-radius: 10vw;
+    }
+}
+
+.about-btn-part{
+  display: flex;
+  justify-content:start;
+  align-items: center;
+  .about-btn{
+     background-color: #262726;
+      font-size: 1.2vw;
+      padding: 1vw 3vw;
+      border-radius: 10vw;
+      outline: none;
+      border: none;
+      font-weight: 500;
+      font-family: poppins;
+      color: #fdfaf7;
+      cursor: pointer;
+  }
+  .ri-arrow-right-up-line{
+     background-color: #BFF747;
+       border-radius: 10vw;
+      font-size: 2.5vw;
+      padding: 0.6vw;
+  }
 }
