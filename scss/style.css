@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@font-face {
+  font-family: bokis;
+  src: url(../font/Riccione-Serial-Light-RegularItalic.ttf);
+}
+@font-face {
+  font-family: thunder;
+  src: url(../font/Thunder-BoldLCItalic.otf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -7,10 +16,146 @@
 html, body {
   height: 100%;
   width: 100%;
-  font-family: Arial, sans-serif;
+  font-family: poppins;
 }
 
 .main {
   position: relative;
   overflow: hidden;
+  background-color: #fdfaf7;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2vw 3vw;
+}
+header nav a {
+  text-decoration: none;
+  margin: 0 0.7vw;
+  color: #000000;
+  font-family: poppins;
+}
+
+.home-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.home-section .home-pasag {
+  text-transform: lowercase;
+  font-size: 1.2vw;
+}
+.home-section .gradient-left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 40%;
+  height: 50vw;
+  opacity: 0.5;
+}
+.home-section .gradient-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 60vw;
+}
+.home-section .all-home-content {
+  text-align: center;
+  padding: 4.5vw 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-section .home-h1 {
+  font-family: poppins;
+  letter-spacing: 0.2vw;
+  font-size: 4vw;
+  font-weight: 600;
+  letter-spacing: 0vw;
+  width: 70%;
+  line-height: 5vw;
+}
+.home-section .home-h1 .style-text {
+  font-family: bokis;
+  font-weight: 200;
+}
+.home-section .home-small-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1vw 0;
+}
+.home-section .home-small-box .first-box-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-section .home-small-box .first-box-home button {
+  background-color: #262726;
+  font-size: 1.2vw;
+  padding: 1vw 3vw;
+  border-radius: 10vw;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  font-family: poppins;
+  color: #fdfaf7;
+  cursor: pointer;
+}
+.home-section .home-small-box .first-box-home .ri-arrow-right-up-line {
+  background-color: #BFF747;
+  border-radius: 10vw;
+  font-size: 2.5vw;
+  padding: 0.6vw;
+}
+.home-section .three-home-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+.home-section .three-home-box .one-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.home-section .three-home-box .one-box p {
+  font-size: 1vw;
+  width: 50%;
+}
+.home-section .main-home-images {
+  height: 30vw;
+}
+.home-section .company-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.home-section .first-details {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1vw 0;
+}
+.home-section .first-details h2 {
+  font-family: bokis;
+  font-size: 5vw;
+  font-weight: 400;
+  text-align: center;
+}
+.home-section .first-details p {
+  font-family: poppins;
+  width: 80%;
+  font-size: 1vw;
 }/*# sourceMappingURL=style.css.map */
