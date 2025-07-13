@@ -33,7 +33,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.2vw 3vw;
+  padding: 1.2vw 4vw;
 
   nav{
     
@@ -56,6 +56,7 @@ header{
   justify-content: center;
   align-items: center;
   position: relative;
+  padding: 1.2vw 4vw;
   .home-pasag{
     text-transform: lowercase;
     font-size: 1.2vw;
@@ -192,7 +193,7 @@ align-items: center;
   justify-content: space-between;
   align-items: center;
  
-  padding: 1.2vw 3vw;
+  padding: 1.2vw 4vw;
 
   .about-images {
    
@@ -319,4 +320,138 @@ textPath{
       font-size: 2.5vw;
       padding: 0.6vw;
   }
+}
+
+
+// services section
+.services-section{
+  background-color: #000000;
+  padding: 1vw 4vw;
+  position: relative;
+  .gradient-right-services{
+   position: absolute;
+    right: 0;
+    top: 0;
+    width: 70%;
+    height: 80vw;
+    opacity: 0.9;
+    
+  }
+
+  .services-title-description{
+
+padding: 2vw 0;
+display: flex;
+justify-content: space-between;
+.services-title{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+
+  .services-name{
+    color: #fff;
+    font-size: 1vw;
+    font-family: poppins;
+  }
+  .services-text{
+    color: #fff;
+    font-size: 3vw;
+    line-height: 3.2vw;
+  }
+}
+
+  }
+  .description-and-button{
+
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ p{
+  color: #fff;
+ }
+ .button-with-arrow{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  text-align: center;
+  padding: 0.2vw 0;
+  button{
+    background-color: #262726;
+      font-size: 1.2vw;
+      padding: 1vw 3vw;
+      border-radius: 10vw;
+      outline: none;
+      border: none;
+      font-weight: 500;
+      font-family: poppins;
+      color: #fdfaf7;
+      cursor: pointer;
+      z-index: 1;
+      
+  }
+  .ri-arrow-right-up-line{
+     background-color: #BFF747;
+       border-radius: 10vw;
+      font-size: 2.5vw;
+      padding: 0.6vw;
+  }
+ }
+  }
+}
+
+.main-services{
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 1;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1vw;
+    width: 100%;
+    padding: 1vw 0;
+    h1{
+    font-size: 1.4vw;
+    padding: 1vw 0;
+    font-family: poppins;
+    color: #E3F0FF;
+}
+p{
+    font-family: poppins;
+    color: #fdfaf7;
+    font-size: 0.9vw;
+    padding: 0.5vw;
+    margin: 0.5vw 0;
+    border-radius: 0.3vw;
+    background: linear-gradient(270deg, transparent, #40423c);
+    position: relative;
+}
+// p::after{
+//     content: "";
+//     position: absolute;
+//     top:0.9vw;
+//     border-radius: 50%;
+//     left: -0.9vw;
+//     height: 0.5vw;
+//     width: 0.5vw;
+//     background-color: rgb(128, 255, 0);
+// }
+svg{
+    
+    height: 3.5vw;
+    width: 100%;
+}
+.small{
+    width: 20%;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    text-align: start;
+}
+}
+.services-box{
+    width: 30%;
+    background-color: #1B1B1B;
+    padding: 2vw 2vw ;
+    border-radius: 1vw;
+    box-shadow: 0 4px 23px 0 rgba(174, 191, 210, 0.3);
+    clip-path: polygon(80% 0, 100% 20%, 100% 100%, 0 100%, 0 0);
 }

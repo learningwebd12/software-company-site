@@ -29,7 +29,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.2vw 3vw;
+  padding: 1.2vw 4vw;
 }
 header nav a {
   text-decoration: none;
@@ -44,6 +44,7 @@ header nav a {
   justify-content: center;
   align-items: center;
   position: relative;
+  padding: 1.2vw 4vw;
 }
 .home-section .home-pasag {
   text-transform: lowercase;
@@ -169,7 +170,7 @@ header nav a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.2vw 3vw;
+  padding: 1.2vw 4vw;
 }
 .about-section .about-images {
   width: 40vw;
@@ -281,4 +282,120 @@ header nav a {
   border-radius: 10vw;
   font-size: 2.5vw;
   padding: 0.6vw;
+}
+
+.services-section {
+  background-color: #000000;
+  padding: 1vw 4vw;
+  position: relative;
+}
+.services-section .gradient-right-services {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 70%;
+  height: 80vw;
+  opacity: 0.9;
+}
+.services-section .services-title-description {
+  padding: 2vw 0;
+  display: flex;
+  justify-content: space-between;
+}
+.services-section .services-title-description .services-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.services-section .services-title-description .services-title .services-name {
+  color: #fff;
+  font-size: 1vw;
+  font-family: poppins;
+}
+.services-section .services-title-description .services-title .services-text {
+  color: #fff;
+  font-size: 3vw;
+  line-height: 3.2vw;
+}
+.services-section .description-and-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.services-section .description-and-button p {
+  color: #fff;
+}
+.services-section .description-and-button .button-with-arrow {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  text-align: center;
+  padding: 0.2vw 0;
+}
+.services-section .description-and-button .button-with-arrow button {
+  background-color: #262726;
+  font-size: 1.2vw;
+  padding: 1vw 3vw;
+  border-radius: 10vw;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  font-family: poppins;
+  color: #fdfaf7;
+  cursor: pointer;
+  z-index: 1;
+}
+.services-section .description-and-button .button-with-arrow .ri-arrow-right-up-line {
+  background-color: #BFF747;
+  border-radius: 10vw;
+  font-size: 2.5vw;
+  padding: 0.6vw;
+}
+
+.main-services {
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 1;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1vw;
+  width: 100%;
+  padding: 1vw 0;
+}
+.main-services h1 {
+  font-size: 1.4vw;
+  padding: 1vw 0;
+  font-family: poppins;
+  color: #E3F0FF;
+}
+.main-services p {
+  font-family: poppins;
+  color: #fdfaf7;
+  font-size: 0.9vw;
+  padding: 0.5vw;
+  margin: 0.5vw 0;
+  border-radius: 0.3vw;
+  background: linear-gradient(270deg, transparent, #40423c);
+  position: relative;
+}
+.main-services svg {
+  height: 3.5vw;
+  width: 100%;
+}
+.main-services .small {
+  width: 20%;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  text-align: start;
+}
+
+.services-box {
+  width: 30%;
+  background-color: #1B1B1B;
+  padding: 2vw 2vw;
+  border-radius: 1vw;
+  box-shadow: 0 4px 23px 0 rgba(174, 191, 210, 0.3);
+  -webkit-clip-path: polygon(80% 0, 100% 20%, 100% 100%, 0 100%, 0 0);
+          clip-path: polygon(80% 0, 100% 20%, 100% 100%, 0 100%, 0 0);
 }/*# sourceMappingURL=style.css.map */
