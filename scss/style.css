@@ -37,6 +37,16 @@ header nav a {
   color: #000000;
   font-family: poppins;
 }
+header .social-medi-link .ri-instagram-line {
+  font-size: 1.6vw;
+  cursor: pointer;
+}
+header .social-medi-link .ri-whatsapp-line {
+  font-size: 1.6vw;
+  padding: 0.5vw;
+  border-radius: 0.5vw;
+  cursor: pointer;
+}
 
 .home-section {
   display: flex;
