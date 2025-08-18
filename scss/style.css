@@ -548,9 +548,11 @@ footer .about-footer {
 footer .about-footer h3 {
   color: #fff;
   margin: 0 0 0.5vw 0;
+  font-size: 1.2vw;
 }
 footer .about-footer p {
   color: #cccccc;
+  font-size: 1vw;
 }
 footer .usefullinks {
   z-index: 1;
@@ -572,6 +574,7 @@ footer .category {
   z-index: 1;
   display: flex;
   flex-direction: column;
+  font-size: 1.2vw;
 }
 footer .category h3 {
   color: #fff;
@@ -581,6 +584,7 @@ footer .category a {
   text-decoration: none;
   color: #cccccc;
   margin: 0.4vw 0vw;
+  font-size: 1vw;
 }
 footer .newsletter {
   z-index: 1;
@@ -588,9 +592,11 @@ footer .newsletter {
 footer .newsletter h3 {
   color: #fff;
   margin: 0 0 0.5vw 0;
+  font-size: 1.2vw;
 }
 footer .newsletter p {
   color: #cccccc;
+  font-size: 1vw;
 }
 footer .newsletter .newsletter-box {
   padding: 0.8vw 0;
@@ -601,6 +607,7 @@ footer .newsletter .newsletter-box input {
   font-family: poppins;
   border: none;
   outline: none;
+  font-size: 0.9vw;
 }
 footer .newsletter .newsletter-box .newsletter-btn {
   padding: 0.8vw;
@@ -609,4 +616,17 @@ footer .newsletter .newsletter-box .newsletter-btn {
   outline: none;
   font-family: poppins;
   background-color: #BFF747;
+  font-size: 0.9vw;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  footer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 600px) {
+  footer {
+    grid-template-columns: 1fr;
+  }
 }/*# sourceMappingURL=style.css.map */

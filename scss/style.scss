@@ -627,9 +627,11 @@ footer{
     h3{
       color: #fff;
       margin: 0 0 0.5vw 0;
+      font-size: 1.2vw;
     }
     p{
-      color: #cccccc;;
+      color: #cccccc;
+      font-size: 1vw;
     }
   }
   .usefullinks{
@@ -652,6 +654,7 @@ footer{
     z-index: 1;
     display: flex;
     flex-direction: column;
+    font-size: 1.2vw;
     h3{
       color: #fff;
       margin: 0 0 0.5vw 0;
@@ -660,6 +663,7 @@ footer{
       text-decoration: none;
       color: #cccccc;
       margin: 0.4vw 0vw;
+      font-size: 1vw;
     }
   }
   .newsletter{
@@ -667,9 +671,11 @@ footer{
     h3{
       color: #fff;
       margin: 0 0 0.5vw 0;
+      font-size: 1.2vw;
     }
     p{
       color: #cccccc;
+      font-size: 1vw;
     }
     .newsletter-box{
       padding: 0.8vw 0;
@@ -679,6 +685,7 @@ footer{
         font-family: poppins;
         border: none;
         outline: none;
+        font-size: 0.9vw;
       }
       .newsletter-btn{
         padding: 0.8vw;
@@ -687,8 +694,22 @@ footer{
         outline: none;
         font-family: poppins;
         background-color: #BFF747;
+        font-size: 0.9vw;
+        cursor: pointer;
       }
     }
   }
 
+}
+
+@media only screen and (max-width:768px){
+footer{
+  grid-template-columns: 1fr 1fr;
+}
+}
+
+@media only screen and (max-width: 600px) {
+  footer{
+  grid-template-columns: 1fr;
+}
 }
