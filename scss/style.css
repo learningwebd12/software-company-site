@@ -629,4 +629,37 @@ footer .newsletter .newsletter-box .newsletter-btn {
   footer {
     grid-template-columns: 1fr;
   }
+}
+@media only screen and (max-width: 768px) {
+  .services-section {
+    flex-direction: rows;
+  }
+  .main-services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .services-box {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .services-section {
+    flex-direction: rows;
+  }
+  .main-services {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .services-box {
+    width: 100%;
+  }
+  .services-box svg {
+    height: 100px;
+  }
+  .services-box h1 {
+    font-size: 24px;
+  }
+  .services-box p {
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=style.css.map */
