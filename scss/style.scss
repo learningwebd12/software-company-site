@@ -470,6 +470,117 @@ svg{
     clip-path: polygon(80% 0, 100% 20%, 100% 100%, 0 100%, 0 0);
 }
 
+//pricing-section
+
+.pricing-section{
+  background-color: #000000;
+ padding: 2vw 0;
+  .price-first-box{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 4vw;
+    p{
+      color: #fff;
+      font-size: 1vw;
+      text-transform: capitalize;
+    }
+    .price-title{
+      color: #fff;
+      font-size: 3vw;
+      width: 50%;
+      line-height: 3.4vw;
+    }
+    .price-description{
+      font-size: 0.9vw;
+      width: 60%;
+    }
+  }
+.all-price{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+  padding: 2vw 4vw;
+ 
+  .all-price-list{
+    padding: 1vw 1.5vw;
+    
+    background: rgba(85, 91, 68, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+// border: 1px solid rgba(41, 39, 39, 0.3);
+ hr{
+ opacity: 0.3;
+  }
+.main-price-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1vw 0;
+}
+button{
+   background-color: #BFF747;
+      font-size: 1.2vw;
+      padding: 1vw 3vw;
+      border-radius: 10vw;
+      width: 100%;
+      outline: none;
+      border: none;
+      font-weight: 500;
+      font-family: poppins;
+      color: #000000;
+      cursor: pointer;
+}
+  }
+.plan-name{
+  color: #BFF747;
+  padding: 1.5vw 0;
+  font-size: 1.6vw;
+}
+.box-for-circle-and-text{
+  .circle-and-text{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    margin: 1.5vw 0;
+    .ri-checkbox-circle-line{
+      color: #BFF747;
+      font-size: 1vw;
+      
+    }
+    li{
+      color: #fff;
+      list-style-type: none;
+      margin: 0 0.5vw;
+      font-size: 1vw;
+      
+    }
+  }
+
+}
+  .rate{
+   
+    h4{
+      color: #BFF747;
+      font-size: 3vw;
+      margin: 1vw 0;
+      span{
+        color: #b1b1b1;
+        font-size: 1vw;
+      }
+    }
+    p{
+      color: #fff;
+      font-size: 1vw;
+    }
+  }
+}
+
+}
 // testimonials css  
 .testimonials{
   background-color: #000000;
@@ -481,7 +592,10 @@ svg{
     .first-inner-box{
       p{
         color:#BFF747;
-        font-size: 1vw;
+        font-size: 2vw;
+        font-style: italic;
+        letter-spacing: -0.15vw;
+        text-transform: capitalize;
         
       }
       h1{

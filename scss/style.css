@@ -409,6 +409,104 @@ header .social-medi-link .ri-whatsapp-line {
   clip-path: polygon(80% 0, 100% 20%, 100% 100%, 0 100%, 0 0);
 }
 
+.pricing-section {
+  background-color: #000000;
+  padding: 2vw 0;
+}
+.pricing-section .price-first-box {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: start;
+  padding: 0 4vw;
+}
+.pricing-section .price-first-box p {
+  color: #fff;
+  font-size: 1vw;
+  text-transform: capitalize;
+}
+.pricing-section .price-first-box .price-title {
+  color: #fff;
+  font-size: 3vw;
+  width: 50%;
+  line-height: 3.4vw;
+}
+.pricing-section .price-first-box .price-description {
+  font-size: 0.9vw;
+  width: 60%;
+}
+.pricing-section .all-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+  padding: 2vw 4vw;
+}
+.pricing-section .all-price .all-price-list {
+  padding: 1vw 1.5vw;
+  background: rgba(85, 91, 68, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+.pricing-section .all-price .all-price-list hr {
+  opacity: 0.3;
+}
+.pricing-section .all-price .all-price-list .main-price-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1vw 0;
+}
+.pricing-section .all-price .all-price-list button {
+  background-color: #BFF747;
+  font-size: 1.2vw;
+  padding: 1vw 3vw;
+  border-radius: 10vw;
+  width: 100%;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  font-family: poppins;
+  color: #000000;
+  cursor: pointer;
+}
+.pricing-section .all-price .plan-name {
+  color: #BFF747;
+  padding: 1.5vw 0;
+  font-size: 1.6vw;
+}
+.pricing-section .all-price .box-for-circle-and-text .circle-and-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 1.5vw 0;
+}
+.pricing-section .all-price .box-for-circle-and-text .circle-and-text .ri-checkbox-circle-line {
+  color: #BFF747;
+  font-size: 1vw;
+}
+.pricing-section .all-price .box-for-circle-and-text .circle-and-text li {
+  color: #fff;
+  list-style-type: none;
+  margin: 0 0.5vw;
+  font-size: 1vw;
+}
+.pricing-section .all-price .rate h4 {
+  color: #BFF747;
+  font-size: 3vw;
+  margin: 1vw 0;
+}
+.pricing-section .all-price .rate h4 span {
+  color: #b1b1b1;
+  font-size: 1vw;
+}
+.pricing-section .all-price .rate p {
+  color: #fff;
+  font-size: 1vw;
+}
+
 .testimonials {
   background-color: #000000;
   padding: 3vw 4vw;
@@ -419,7 +517,10 @@ header .social-medi-link .ri-whatsapp-line {
 }
 .testimonials .testimonials-first-box .first-inner-box p {
   color: #BFF747;
-  font-size: 1vw;
+  font-size: 2vw;
+  font-style: italic;
+  letter-spacing: -0.15vw;
+  text-transform: capitalize;
 }
 .testimonials .testimonials-first-box .first-inner-box h1 {
   color: #fff;
