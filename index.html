@@ -11,6 +11,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="scss/style.css">
 </head>
 
@@ -238,25 +240,107 @@
 
     <div class="testimonials-second-box">
    <div class="right-box">
-<img src="./images/features.webp" alt="">
-   </div>
-   <div class="all-testimonials">
-    <div class="star">
+    <img src="./images/post-1.jpg" alt="">
+    <div class="img-text-review">
+        <p class="review-text-p">28k Client Review</p>
+        <div class="review-star">
         <i class="ri-gemini-fill"></i>
         <i class="ri-gemini-fill"></i>
         <i class="ri-gemini-fill"></i>
         <i class="ri-gemini-fill"></i>
         <i class="ri-gemini-fill"></i>
     </div>
-    <div class="text-for-testimonials">
+    </div>
+   </div>
+
+
+  
+     <!-- Swiper -->
+    <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+         <div class="star">
+        <i class="ri-gemini-fill"></i>
+        <i class="ri-gemini-fill"></i>
+        <i class="ri-gemini-fill"></i>
+        <i class="ri-gemini-fill"></i>
+        <i class="ri-gemini-fill"></i>
+    </div>
+     <div class="text-for-testimonials">
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam velit, deserunt tempora repellat labore, minus quas hic, sit dicta exercitationem necessitatibus quisquam tenetur sed esse. </p>
+
+        <h2 class="review-person">Emma Johsep</h2>
+        <p class=" position">Engineer</p>
     </div>
-<div class="review-button">
-    <i class="ri-radio-button-fill"></i>
-    <i class="ri-radio-button-fill"></i>
-    <i class="ri-radio-button-fill"></i>
-</div>
-   </div>
+      </div>
+        <div class="swiper-slide">
+         <div class="star">
+     
+        <i class="ri-gemini-fill"></i>
+        <i class="ri-gemini-fill"></i>
+        <i class="ri-gemini-fill"></i>
+        <i class="ri-gemini-fill"></i>
+    </div>
+     <div class="text-for-testimonials">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam velit, deserunt tempora repellat labore, minus quas hic, sit dicta exercitationem necessitatibus quisquam tenetur sed esse. </p>
+
+        <h2 class="review-person">Emma Johsep</h2>
+        <p class=" position">Engineer</p>
+    </div>
+      </div>
+        <div class="swiper-slide">
+         <div class="star">
+        <i class="ri-gemini-fill"></i>
+        <i class="ri-gemini-fill"></i>
+        <i class="ri-gemini-fill"></i>
+        <i class="ri-gemini-fill"></i>
+        <i class="ri-gemini-fill"></i>
+    </div>
+     <div class="text-for-testimonials">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam velit, deserunt tempora repellat labore, minus quas hic, sit dicta exercitationem necessitatibus quisquam tenetur sed esse. </p>
+
+        <h2 class="review-person">Emma Johsep</h2>
+        <p class=" position">Engineer</p>
+    </div>
+      </div>
+        <div class="swiper-slide">
+         <div class="star">
+        <i class="ri-gemini-fill"></i>
+        <i class="ri-gemini-fill"></i>
+        <i class="ri-gemini-fill"></i>
+    </div>
+     <div class="text-for-testimonials">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam velit, deserunt tempora repellat labore, minus quas hic, sit dicta exercitationem necessitatibus quisquam tenetur sed esse. </p>
+
+        <h2 class="review-person">Emma Johsep</h2>
+        <p class=" position">Engineer</p>
+    </div>
+      </div>
+        <div class="swiper-slide">
+         <div class="star">
+        <i class="ri-gemini-fill"></i>
+        <i class="ri-gemini-fill"></i>
+        <i class="ri-gemini-fill"></i>
+        <i class="ri-gemini-fill"></i>
+        <i class="ri-gemini-fill"></i>
+    </div>
+     <div class="text-for-testimonials">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam velit, deserunt tempora repellat labore, minus quas hic, sit dicta exercitationem necessitatibus quisquam tenetur sed esse. </p>
+
+        <h2 class="review-person">Emma Johsep</h2>
+        <p class=" position">Engineer</p>
+    </div>
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+  <!-- Swiper JS -->
+   
+  
+
+
     </div>
 
 </section>
@@ -297,5 +381,15 @@
 </footer>
 
     </div>
+
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
 </body>
 </html>

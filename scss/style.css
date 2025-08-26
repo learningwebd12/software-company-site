@@ -70,7 +70,7 @@ header .social-medi-link .ri-whatsapp-line {
 }
 .home-section .gradient-right {
   position: absolute;
-  top: 0;
+  top: -5vw;
   right: 0;
   width: 50%;
   height: 60vw;
@@ -411,7 +411,7 @@ header .social-medi-link .ri-whatsapp-line {
 
 .testimonials {
   background-color: #000000;
-  padding: 1.2vw 4vw;
+  padding: 3vw 4vw;
 }
 .testimonials .testimonials-first-box {
   display: flex;
@@ -460,32 +460,103 @@ header .social-medi-link .ri-whatsapp-line {
 }
 .testimonials .testimonials-second-box {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5vw 0;
+}
+.testimonials .testimonials-second-box .right-box {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  height: 25vw;
+  /* From https://css.glass */
+  background: rgba(41, 39, 39, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(41, 39, 39, 0.3);
+  border-radius: 1vw;
 }
 .testimonials .testimonials-second-box .right-box img {
-  height: 30vw;
+  width: 100%;
+  height: 100%;
+  border-radius: 1vw;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
-.testimonials .testimonials-second-box .all-testimonials {
+.testimonials .testimonials-second-box .right-box .img-text-review {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.testimonials .testimonials-second-box .right-box .img-text-review p {
+  color: #fff;
+  font-size: 2.5vw;
+}
+.testimonials .testimonials-second-box .right-box .img-text-review .review-star {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.testimonials .testimonials-second-box .right-box .img-text-review .review-star .ri-gemini-fill {
+  color: #BFF747;
+  font-size: 1.5vw;
+}
+.testimonials .testimonials-second-box .swiper {
+  width: 60%;
+  /* From https://css.glass */
+  background: rgba(41, 39, 39, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(41, 39, 39, 0.3);
+  border-radius: 1vw;
+  height: 25vw;
+  margin-right: 0;
+}
+.testimonials .testimonials-second-box .swiper-slide {
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 4vw;
+  padding: 2vw 4vw;
 }
-.testimonials .testimonials-second-box .all-testimonials .star {
+.testimonials .testimonials-second-box .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.testimonials .testimonials-second-box .star {
   padding: 2.5vw 0;
 }
-.testimonials .testimonials-second-box .all-testimonials .star .ri-gemini-fill {
+.testimonials .testimonials-second-box .star .ri-gemini-fill {
   color: #BFF747;
   font-size: 1.5vw;
 }
-.testimonials .testimonials-second-box .all-testimonials .text-for-testimonials p {
+.testimonials .testimonials-second-box .text-for-testimonials {
+  text-align: center;
+}
+.testimonials .testimonials-second-box .text-for-testimonials h2 {
+  color: #cccccc;
+  margin-top: 1vw;
+}
+.testimonials .testimonials-second-box .text-for-testimonials p {
   color: #fff;
   text-align: center;
 }
-.testimonials .testimonials-second-box .all-testimonials .review-button {
+.testimonials .testimonials-second-box .review-button {
   padding: 2.5vw 0;
 }
-.testimonials .testimonials-second-box .all-testimonials .review-button .ri-radio-button-fill {
+.testimonials .testimonials-second-box .review-button .ri-radio-button-fill {
   color: #BFF747;
   cursor: pointer;
 }

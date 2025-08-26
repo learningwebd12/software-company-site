@@ -86,7 +86,7 @@ header{
   }
     .gradient-right{
     position: absolute;
-    top: 0;
+    top: -5vw;
     right: 0;
     width: 50%;
     height: 60vw;
@@ -473,7 +473,8 @@ svg{
 // testimonials css  
 .testimonials{
   background-color: #000000;
-  padding: 1.2vw 4vw;
+  padding: 3vw 4vw;
+  
   .testimonials-first-box{
     display: flex;
     justify-content: space-between;
@@ -490,7 +491,6 @@ svg{
       }
     }
     .second-inner-box{
-     
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -527,18 +527,85 @@ svg{
   }
   .testimonials-second-box{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 2.5vw 0;
     .right-box{
+      
+      width: 30%;
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      flex-direction: column;
+      height: 25vw;
+      /* From https://css.glass */
+background: rgba(41, 39, 39, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(41, 39, 39, 0.3);
+      border-radius: 1vw;
       img{
-        height: 30vw;
+        width: 100%;
+        height: 100%;
+        border-radius: 1vw;
+        object-fit: cover;
+   
+      }
+      .img-text-review{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        p{
+          color: #fff;
+          font-size: 2.5vw;
+          
+        }
+        .review-star{
+          display: flex;
+          text-align: center;
+          justify-content: center;
+          .ri-gemini-fill{
+            color: #BFF747;
+            font-size: 1.5vw;
+          }
+        }
       }
     }
-.all-testimonials{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0 4vw;
 
+ .swiper {
+      width: 60%;
+       /* From https://css.glass */
+background: rgba(41, 39, 39, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(41, 39, 39, 0.3);
+      border-radius: 1vw;
+      height: 25vw;
+    margin-right: 0;
+      
+    }
+
+    .swiper-slide {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2vw 4vw;
+    }
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
     .star{
       padding: 2.5vw 0;
       .ri-gemini-fill{
@@ -548,6 +615,11 @@ svg{
       }
     }
     .text-for-testimonials{
+      text-align: center;
+      h2{
+        color: #cccccc;
+        margin-top:1vw ;
+      }
       p{
         color: #fff;
         text-align: center;
@@ -565,7 +637,7 @@ svg{
   }
   }
 
-}
+
 
 // lets connect page
 .lets-connect-page{
