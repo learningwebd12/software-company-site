@@ -322,10 +322,11 @@ header nav a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 50%;
 }
 .services-section .services-title-description .services-title .services-name {
   color: #fff;
-  font-size: 1vw;
+  font-size: 1.8vw;
   font-family: poppins;
 }
 .services-section .services-title-description .services-title .services-text {
@@ -337,6 +338,7 @@ header nav a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 50%;
 }
 .services-section .description-and-button p {
   color: #fff;
@@ -365,7 +367,8 @@ header nav a {
   background-color: #BFF747;
   border-radius: 10vw;
   font-size: 2.5vw;
-  padding: 0.6vw;
+  padding: 0.5vw;
+  margin: 0 0 0 1vw;
 }
 
 .main-services {
@@ -387,7 +390,7 @@ header nav a {
 .main-services p {
   font-family: poppins;
   color: #fdfaf7;
-  font-size: 0.9vw;
+  font-size: 1vw;
   padding: 0.5vw;
   margin: 0.5vw 0;
   border-radius: 0.3vw;
@@ -428,18 +431,19 @@ header nav a {
 }
 .pricing-section .price-first-box p {
   color: #fff;
-  font-size: 1vw;
+  font-size: 1.5vw;
   text-transform: capitalize;
 }
 .pricing-section .price-first-box .price-title {
   color: #fff;
   font-size: 3vw;
-  width: 50%;
+  width: 60%;
   line-height: 3.4vw;
 }
 .pricing-section .price-first-box .price-description {
-  font-size: 0.9vw;
+  font-size: 1.1vw;
   width: 60%;
+  margin: 1vw 0;
 }
 .pricing-section .all-price {
   display: flex;
@@ -491,13 +495,13 @@ header nav a {
 }
 .pricing-section .all-price .box-for-circle-and-text .circle-and-text .ri-checkbox-circle-line {
   color: #BFF747;
-  font-size: 1vw;
+  font-size: 1.4vw;
 }
 .pricing-section .all-price .box-for-circle-and-text .circle-and-text li {
   color: #fff;
   list-style-type: none;
   margin: 0 0.5vw;
-  font-size: 1vw;
+  font-size: 1.1vw;
 }
 .pricing-section .all-price .rate h4 {
   color: #BFF747;
@@ -520,22 +524,26 @@ header nav a {
 .testimonials .testimonials-first-box {
   display: flex;
   justify-content: space-between;
+  width: 100%;
+}
+.testimonials .testimonials-first-box .first-inner-box {
+  width: 50%;
 }
 .testimonials .testimonials-first-box .first-inner-box p {
   color: #BFF747;
   font-size: 2vw;
-  font-style: italic;
   letter-spacing: -0.15vw;
   text-transform: capitalize;
 }
 .testimonials .testimonials-first-box .first-inner-box h1 {
   color: #fff;
-  font-size: 3vw;
+  font-size: 2.7vw;
 }
 .testimonials .testimonials-first-box .second-inner-box {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 50%;
 }
 .testimonials .testimonials-first-box .second-inner-box p {
   color: #fff;
@@ -563,22 +571,24 @@ header nav a {
   background-color: #BFF747;
   border-radius: 10vw;
   font-size: 2.5vw;
-  padding: 0.6vw;
+  padding: 0.5vw;
+  margin: 0 0 0 1vw;
 }
 .testimonials .testimonials-second-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 1vw;
   padding: 2.5vw 0;
 }
 .testimonials .testimonials-second-box .right-box {
-  width: 30%;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: start;
   flex-direction: column;
-  height: 25vw;
-  /* From https://css.glass */
+  height: 23vw;
+  padding: 4vw;
   background: rgba(41, 39, 39, 0.2);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -589,7 +599,7 @@ header nav a {
 }
 .testimonials .testimonials-second-box .right-box img {
   width: 100%;
-  height: 100%;
+  height: 60%;
   border-radius: 1vw;
   -o-object-fit: cover;
      object-fit: cover;
@@ -603,7 +613,9 @@ header nav a {
 }
 .testimonials .testimonials-second-box .right-box .img-text-review p {
   color: #fff;
-  font-size: 2.5vw;
+  font-size: 2vw;
+  margin: 1vw 0 0 0;
+  font-weight: 600;
 }
 .testimonials .testimonials-second-box .right-box .img-text-review .review-star {
   display: flex;
@@ -615,7 +627,7 @@ header nav a {
   font-size: 1.5vw;
 }
 .testimonials .testimonials-second-box .swiper {
-  width: 60%;
+  width: 50%;
   /* From https://css.glass */
   background: rgba(41, 39, 39, 0.2);
   border-radius: 16px;
@@ -624,7 +636,7 @@ header nav a {
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(41, 39, 39, 0.3);
   border-radius: 1vw;
-  height: 25vw;
+  height: 23vw;
   margin-right: 0;
 }
 .testimonials .testimonials-second-box .swiper-slide {
@@ -651,6 +663,7 @@ header nav a {
 }
 .testimonials .testimonials-second-box .text-for-testimonials {
   text-align: center;
+  font-size: 1.1vw;
 }
 .testimonials .testimonials-second-box .text-for-testimonials h2 {
   color: #cccccc;
@@ -674,13 +687,12 @@ header nav a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   text-align: center;
-  position: relative;
 }
 .lets-connect-page .connect-span {
   color: #fff;
   font-size: 2vw;
-  z-index: 1;
   font-family: poppins;
 }
 .lets-connect-page .connect-h1 {
@@ -688,30 +700,19 @@ header nav a {
   text-transform: uppercase;
   color: #fff;
   line-height: 13vw;
-  z-index: 1;
 }
 .lets-connect-page .connect-button {
-  position: absolute;
-  top: 13vw;
-  left: 45vw;
   font-size: 1vw;
   background-color: #BFF747;
-  padding: 4vw 1.7vw;
+  padding: 1vw 1.7vw;
+  width: 20%;
   font-weight: 600;
-  border-radius: 100%;
+  border-radius: 2vw;
+  align-items: center;
   border: 0.2vw solid #ffffff;
   outline: none;
   font-family: poppins;
   cursor: pointer;
-  z-index: 1;
-}
-.lets-connect-page .left-gradient {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 50vw;
-  width: 100%;
-  opacity: 0.5;
 }
 
 footer {

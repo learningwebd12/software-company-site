@@ -363,10 +363,11 @@ justify-content: space-between;
  display: flex;
  flex-direction: column;
  justify-content: space-between;
+ width: 50%;
 
   .services-name{
     color: #fff;
-    font-size: 1vw;
+    font-size: 1.8vw;
     font-family: poppins;
   }
   .services-text{
@@ -382,6 +383,7 @@ justify-content: space-between;
  display: flex;
  flex-direction: column;
  justify-content: space-between;
+ width: 50%;
  p{
   color: #fff;
  }
@@ -409,7 +411,8 @@ justify-content: space-between;
      background-color: #BFF747;
        border-radius: 10vw;
       font-size: 2.5vw;
-      padding: 0.6vw;
+      padding: 0.5vw;
+      margin: 0 0 0 1vw;
   }
  }
   }
@@ -433,7 +436,7 @@ justify-content: space-between;
 p{
     font-family: poppins;
     color: #fdfaf7;
-    font-size: 0.9vw;
+    font-size:1vw;
     padding: 0.5vw;
     margin: 0.5vw 0;
     border-radius: 0.3vw;
@@ -485,18 +488,19 @@ svg{
     padding: 0 4vw;
     p{
       color: #fff;
-      font-size: 1vw;
+      font-size: 1.5vw;
       text-transform: capitalize;
     }
     .price-title{
       color: #fff;
       font-size: 3vw;
-      width: 50%;
+      width: 60%;
       line-height: 3.4vw;
     }
     .price-description{
-      font-size: 0.9vw;
+      font-size: 1.1vw;
       width: 60%;
+      margin: 1vw 0;
     }
   }
 .all-price{
@@ -551,14 +555,14 @@ button{
     margin: 1.5vw 0;
     .ri-checkbox-circle-line{
       color: #BFF747;
-      font-size: 1vw;
+      font-size: 1.4vw;
       
     }
     li{
       color: #fff;
       list-style-type: none;
       margin: 0 0.5vw;
-      font-size: 1vw;
+      font-size: 1.1vw;
       
     }
   }
@@ -591,18 +595,19 @@ button{
   .testimonials-first-box{
     display: flex;
     justify-content: space-between;
+    width: 100%;
     .first-inner-box{
+      width: 50%;
       p{
         color:#BFF747;
         font-size: 2vw;
-        font-style: italic;
         letter-spacing: -0.15vw;
         text-transform: capitalize;
         
       }
       h1{
         color: #fff;
-        font-size: 3vw;
+        font-size: 2.7vw;
         
       }
     }
@@ -610,6 +615,7 @@ button{
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      width: 50%;
       p{
         color: #fff;
         font-size: 1vw;
@@ -636,7 +642,8 @@ button{
        background-color: #BFF747;
        border-radius: 10vw;
       font-size: 2.5vw;
-      padding: 0.6vw;
+      padding: 0.5vw;
+      margin: 0 0 0 1vw;
     }
       }
     }
@@ -645,17 +652,16 @@ button{
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
+    gap: 1vw;
     padding: 2.5vw 0;
     .right-box{
-      
-      width: 30%;
+      width: 50%;
       display: flex;
       justify-content: center;
       align-items: start;
       flex-direction: column;
-      height: 25vw;
-      /* From https://css.glass */
+      height: 23vw;
+      padding: 4vw;
 background: rgba(41, 39, 39, 0.2);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -665,7 +671,7 @@ border: 1px solid rgba(41, 39, 39, 0.3);
       border-radius: 1vw;
       img{
         width: 100%;
-        height: 100%;
+        height: 60%;
         border-radius: 1vw;
         object-fit: cover;
    
@@ -678,7 +684,9 @@ border: 1px solid rgba(41, 39, 39, 0.3);
         height: 100%;
         p{
           color: #fff;
-          font-size: 2.5vw;
+          font-size: 2vw;
+          margin: 1vw 0 0 0;
+          font-weight: 600;
           
         }
         .review-star{
@@ -694,7 +702,7 @@ border: 1px solid rgba(41, 39, 39, 0.3);
     }
 
  .swiper {
-      width: 60%;
+      width: 50%;
        /* From https://css.glass */
 background: rgba(41, 39, 39, 0.2);
 border-radius: 16px;
@@ -703,7 +711,7 @@ backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
 border: 1px solid rgba(41, 39, 39, 0.3);
       border-radius: 1vw;
-      height: 25vw;
+      height: 23vw;
     margin-right: 0;
       
     }
@@ -732,6 +740,7 @@ border: 1px solid rgba(41, 39, 39, 0.3);
     }
     .text-for-testimonials{
       text-align: center;
+      font-size: 1.1vw;
       h2{
         color: #cccccc;
         margin-top:1vw ;
@@ -762,12 +771,12 @@ border: 1px solid rgba(41, 39, 39, 0.3);
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   text-align: center;
-  position: relative;
+ 
   .connect-span{
     color: #fff;
     font-size: 2vw;
-    z-index: 1;
     font-family: poppins;
   }
   .connect-h1{
@@ -775,31 +784,26 @@ border: 1px solid rgba(41, 39, 39, 0.3);
     text-transform: uppercase;
     color: #fff;
     line-height: 13vw;
-    z-index: 1;
+    
   }
   .connect-button{
-    position: absolute;
-    top: 13vw;
-    left: 45vw;
+    
     font-size: 1vw;
     background-color: #BFF747;
-    padding: 4vw 1.7vw;
+    padding: 1vw 1.7vw;
+  width: 20%;
     font-weight: 600;
-    border-radius: 100%;
+    border-radius: 2vw;
+   
+    align-items: center;
     border: 0.2vw solid #ffffff;
     outline: none;
     font-family: poppins;
     cursor: pointer;
-    z-index: 1;
+    
+    
   }
-  .left-gradient{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 50vw;
-    width: 100%;
-    opacity: 0.5;
-  }
+ 
 }
 
 
