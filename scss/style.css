@@ -36,16 +36,7 @@ header nav a {
   margin: 0 0.7vw;
   color: #000000;
   font-family: poppins;
-}
-header .social-medi-link .ri-instagram-line {
-  font-size: 1.6vw;
-  cursor: pointer;
-}
-header .social-medi-link .ri-whatsapp-line {
-  font-size: 1.6vw;
-  padding: 0.5vw;
-  border-radius: 0.5vw;
-  cursor: pointer;
+  font-weight: 500;
 }
 
 .home-section {
@@ -59,6 +50,9 @@ header .social-medi-link .ri-whatsapp-line {
 .home-section .home-pasag {
   text-transform: lowercase;
   font-size: 1.2vw;
+  font-family: poppins;
+  font-weight: 500;
+  color: #40423c;
 }
 .home-section .gradient-left {
   position: absolute;
@@ -74,6 +68,7 @@ header .social-medi-link .ri-whatsapp-line {
   right: 0;
   width: 50%;
   height: 60vw;
+  z-index: -1;
 }
 .home-section .all-home-content {
   text-align: center;
@@ -86,21 +81,31 @@ header .social-medi-link .ri-whatsapp-line {
 .home-section .home-h1 {
   font-family: poppins;
   letter-spacing: 0.2vw;
-  font-size: 4vw;
-  font-weight: 600;
+  font-size: 5vw;
+  font-weight: 700;
   letter-spacing: 0vw;
-  width: 70%;
+  width: 90%;
   line-height: 5vw;
 }
 .home-section .home-h1 .style-text {
-  font-family: bokis;
-  font-weight: 200;
+  font-family: poppins;
+  font-weight: 300;
+  font-style: italic;
 }
 .home-section .home-small-box {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 1vw 0;
+}
+.home-section .home-small-box p {
+  color: #000000;
+  font-weight: 700;
+  margin: 0 0 0 0.5vw;
+}
+.home-section .home-small-box p .review-text {
+  font-weight: 600;
+  color: #40423c;
 }
 .home-section .home-small-box .first-box-home {
   display: flex;
@@ -110,7 +115,7 @@ header .social-medi-link .ri-whatsapp-line {
 .home-section .home-small-box .first-box-home button {
   background-color: #262726;
   font-size: 1.2vw;
-  padding: 1vw 3vw;
+  padding: 1vw 2.3vw;
   border-radius: 10vw;
   outline: none;
   border: none;
@@ -123,7 +128,8 @@ header .social-medi-link .ri-whatsapp-line {
   background-color: #BFF747;
   border-radius: 10vw;
   font-size: 2.5vw;
-  padding: 0.6vw;
+  padding: 0.5vw;
+  margin: 0 0 0 1vw;
 }
 .home-section .three-home-box {
   display: grid;
