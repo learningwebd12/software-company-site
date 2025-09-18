@@ -145,15 +145,13 @@ header nav a {
   text-align: center;
   padding: 3vw 0;
 }
-.home-section .three-home-box .one-box svg {
-  margin: 0 0 4vw 0;
-}
 .home-section .three-home-box .one-box p {
   font-size: 1vw;
   width: 50%;
 }
 .home-section .main-home-images {
-  height: 30vw;
+  height: 25vw;
+  border-radius: 1vw;
 }
 .home-section .company-details {
   display: flex;
@@ -270,7 +268,7 @@ header nav a {
   content: "";
   height: 1vw;
   width: 1vw;
-  background-color: #4c00ff;
+  background-color: #000000;
   top: 0.4vw;
   left: -2vw;
   border-radius: 10vw;
@@ -297,7 +295,8 @@ header nav a {
   background-color: #BFF747;
   border-radius: 10vw;
   font-size: 2.5vw;
-  padding: 0.6vw;
+  padding: 0.5vw;
+  margin-left: 0.5vw;
 }
 
 .services-section {

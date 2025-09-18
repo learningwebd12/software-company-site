@@ -159,9 +159,7 @@ align-items: center;
   align-items: center;
   text-align: center;
   padding: 3vw 0;
-  svg{
-    margin: 0 0 4vw 0;
-  }
+  
   p{
   
     font-size: 1vw;
@@ -170,7 +168,8 @@ align-items: center;
 }
 }
 .main-home-images{
-  height: 30vw;
+  height: 25vw;
+   border-radius: 1vw;
 }
 .company-details{
   display: flex;
@@ -307,7 +306,7 @@ textPath{
       content: "";
       height: 1vw;
       width: 1vw;
-      background-color: #4c00ff;
+      background-color: #000000;
       top: 0.4vw;
       left: -2vw;
       border-radius: 10vw;
@@ -334,7 +333,8 @@ textPath{
      background-color: #BFF747;
        border-radius: 10vw;
       font-size: 2.5vw;
-      padding: 0.6vw;
+      padding: 0.5vw;
+      margin-left: 0.5vw;
   }
 }
 
