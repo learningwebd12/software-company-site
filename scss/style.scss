@@ -147,10 +147,12 @@ header{
   }
 }
 .three-home-box{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-justify-content: center;
-align-items: center;
+ display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns by default */
+  gap: 20px;
+  justify-items: center;
+  align-items: start; /* aligns items to top */
+  padding: 20px;
 .one-box{
 
   display: flex;
@@ -199,6 +201,51 @@ align-items: center;
     width: 80%;
     font-size: 1vw;
   }
+}
+}
+
+@media only screen and (max-width:480px){
+  .all-home-content .home-pasag{
+    font-size: 14px;
+  }
+.all-home-content .home-h1{
+  font-size: 40px;
+  line-height: 50px;
+  width: 100%;
+}
+.all-home-content .home-small-box .first-box-home .start-btn{
+  font-size: 16px;
+  padding: 16px 36px;
+
+}
+.all-home-content .home-small-box .first-box-home .ri-arrow-right-up-line{
+  font-size: 40px;
+  padding: 8px;
+}
+.all-home-content .home-small-box{
+  padding-top:20px ;
+}
+.home-section .three-home-box{
+  
+  grid-template-columns: 1fr;
+  
+}
+.home-section .three-home-box .one-box p{
+  display: flex;
+      font-size: 14px;
+      width: 100%;
+    }
+    .home-section .three-home-box div img{
+      height: 210px;
+    }
+    .company-details .first-details h2{
+      font-size: 40px;
+      font-family: poppins;
+      font-weight: 700;
+}
+.company-details .first-details p{
+      font-size: 14px;
+      width: 100%;
 }
 }
 
