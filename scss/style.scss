@@ -385,6 +385,33 @@ textPath{
   }
 }
 
+@media only screen and (max-width:480px){
+  .about-section{
+    flex-direction: column-reverse;
+  }
+  .about-section .about-text .about-sm-p{
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .about-section .about-text{
+    border: 1px solid red;
+    width: 100%;
+  }
+  .about-section.about-images{
+    width: 100%;
+  }
+  .about-section .about-first-img{
+    height: 400px;
+  }
+  .about-section .about-text .about-btn-part .about-btn{
+    font-size: 16px;
+  padding: 16px 36px;
+  }
+  .about-section .about-text .about-btn-part .ri-arrow-right-up-line{
+    font-size: 40px;
+  padding: 8px;
+  }
+}
 
 // services section
 .services-section{
