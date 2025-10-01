@@ -347,18 +347,30 @@ header nav a {
     flex-direction: column-reverse;
   }
   .about-section .about-text .about-sm-p {
-    font-size: 28px;
+    font-size: 40px;
     font-weight: 700;
   }
-  .about-section .about-text {
-    border: 1px solid red;
-    width: 100%;
+  .about-text .about-h2-text {
+    font-size: 25px;
+    color: #232323;
+    line-height: 25px;
   }
-  .about-section.about-images {
+  .about-section .about-text {
+    width: 100%;
+    padding: 15px 0;
+  }
+  .about-section .about-images {
     width: 100%;
   }
   .about-section .about-first-img {
     height: 400px;
+  }
+  .about-section .about-images .rotate-images {
+    width: 100px;
+    height: 100px;
+  }
+  .about-section .about-images .rotate-images .rotate-text textpath {
+    font-size: 15px;
   }
   .about-section .about-text .about-btn-part .about-btn {
     font-size: 16px;
@@ -894,15 +906,50 @@ footer .newsletter .newsletter-box .newsletter-btn {
   .services-section {
     flex-direction: rows;
   }
+  .services-section .services-title-description {
+    flex-direction: column;
+  }
+  .services-section .services-title-description .services-title {
+    width: 100%;
+  }
+  .services-section .description-and-button {
+    width: 100%;
+  }
+  .services-section .description-and-button p {
+    font-size: 16px;
+  }
+  .services-section .services-title-description .services-title .services-text {
+    font-size: 25px;
+    color: #b1b1b1;
+    line-height: 40px;
+  }
+  .services-section .services-title-description .services-title .services-name {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .services-section .description-and-button .button-with-arrow {
+    padding: 15px 0;
+  }
+  .services-section .description-and-button .button-with-arrow button {
+    font-size: 16px;
+    padding: 16px 36px;
+  }
+  .services-section .description-and-button .button-with-arrow .ri-arrow-right-up-line {
+    font-size: 40px;
+    padding: 8px;
+  }
   .main-services {
     display: grid;
     grid-template-columns: 1fr;
   }
   .services-box {
     width: 100%;
+    padding: 30px 15px;
+    margin: 10px 0;
   }
   .services-box svg {
-    height: 100px;
+    height: 80px;
+    padding: 5px 0;
   }
   .services-box h1 {
     font-size: 24px;
