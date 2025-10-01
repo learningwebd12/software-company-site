@@ -598,6 +598,52 @@ header nav a {
   font-size: 1vw;
 }
 
+@media only screen and (max-width: 720px) {
+  .pricing-section .all-price {
+    flex-direction: column;
+  }
+  .pricing-section .price-first-box p {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: lowercase;
+  }
+  .pricing-section .all-price .all-price-list {
+    width: 100%;
+    padding: 15px;
+  }
+  .pricing-section .all-price .plan-name {
+    font-size: 40px;
+  }
+  .pricing-section .all-price .box-for-circle-and-text .circle-and-text li {
+    font-size: 16px;
+  }
+  .pricing-section .all-price .rate h4 {
+    font-size: 40px;
+  }
+  .pricing-section .all-price .rate h4 span {
+    font-size: 20px;
+  }
+  .pricing-section .all-price .rate p {
+    font-size: 14px;
+  }
+  .pricing-section .all-price .all-price-list button {
+    font-size: 16px;
+    padding: 16px 36px;
+  }
+  .pricing-section .all-price .all-price-list .main-price-btn {
+    padding: 20px 0;
+  }
+  .pricing-section .price-first-box .price-title {
+    font-size: 20px;
+    line-height: 25px;
+    color: #b1b1b1;
+  }
+  .pricing-section .price-first-box .price-description {
+    font-size: 12px;
+    font-weight: 400;
+    width: 100%;
+  }
+}
 .testimonials {
   background-color: #000000;
   padding: 3vw 4vw;
